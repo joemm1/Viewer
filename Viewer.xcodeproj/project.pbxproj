@@ -15,6 +15,7 @@
 		1EF5EA9622A580980029B119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF5EA9522A580980029B119 /* Assets.xcassets */; };
 		1EF5EA9922A580980029B119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF5EA9722A580980029B119 /* LaunchScreen.storyboard */; };
 		1EF5EA9C22A580980029B119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF5EA9B22A580980029B119 /* main.m */; };
+		1EF5EAA422A665A40029B119 /* SnowEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF5EAA322A665A40029B119 /* SnowEngine.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1EF5EA9822A580980029B119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EF5EA9A22A580980029B119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EF5EA9B22A580980029B119 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EF5EAA322A665A40029B119 /* SnowEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnowEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF5EAA422A665A40029B119 /* SnowEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +53,7 @@
 			children = (
 				1EF5EA8522A580960029B119 /* Viewer */,
 				1EF5EA8422A580960029B119 /* Products */,
+				1EF5EAA222A665A40029B119 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +83,14 @@
 				1EF5EA9B22A580980029B119 /* main.m */,
 			);
 			path = Viewer;
+			sourceTree = "<group>";
+		};
+		1EF5EAA222A665A40029B119 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EF5EAA322A665A40029B119 /* SnowEngine.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
